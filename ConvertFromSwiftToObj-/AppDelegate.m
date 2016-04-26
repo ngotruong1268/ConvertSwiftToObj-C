@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import <UIKit/UIKit.h>
+#import "BootLogic.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [BootLogic boot:self.window];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

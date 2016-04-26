@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E77A9B081CCF154C00CC512F /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = E77A9B071CCF154C00CC512F /* BootLogic.m */; };
+		E77A9B0E1CCF188000CC512F /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = E77A9B0D1CCF188000CC512F /* MainScreen.m */; };
 		E7E5D0151CC5D3BE00137569 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E5D0141CC5D3BE00137569 /* main.m */; };
 		E7E5D0181CC5D3BE00137569 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E5D0171CC5D3BE00137569 /* AppDelegate.m */; };
-		E7E5D01B1CC5D3BE00137569 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E5D01A1CC5D3BE00137569 /* ViewController.m */; };
-		E7E5D01E1CC5D3BE00137569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E5D01C1CC5D3BE00137569 /* Main.storyboard */; };
 		E7E5D0201CC5D3BE00137569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E5D01F1CC5D3BE00137569 /* Assets.xcassets */; };
 		E7E5D0231CC5D3BE00137569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E5D0211CC5D3BE00137569 /* LaunchScreen.storyboard */; };
 		E7E5D02E1CC5D3BE00137569 /* ConvertFromSwiftToObj_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E5D02D1CC5D3BE00137569 /* ConvertFromSwiftToObj_Tests.m */; };
 		E7E5D0391CC5D3BF00137569 /* ConvertFromSwiftToObj_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E5D0381CC5D3BF00137569 /* ConvertFromSwiftToObj_UITests.m */; };
+		E7ED60E31CCF2C3D00CD4D9E /* BasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ED60E11CCF2C3D00CD4D9E /* BasicView.m */; };
+		E7ED60E41CCF2C3D00CD4D9E /* BasicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7ED60E21CCF2C3D00CD4D9E /* BasicView.xib */; };
+		E7ED60E71CCF2C6100CD4D9E /* ChessView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ED60E61CCF2C6100CD4D9E /* ChessView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E77A9B061CCF154C00CC512F /* BootLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootLogic.h; sourceTree = "<group>"; };
+		E77A9B071CCF154C00CC512F /* BootLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootLogic.m; sourceTree = "<group>"; };
+		E77A9B0C1CCF188000CC512F /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		E77A9B0D1CCF188000CC512F /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
 		E7E5D0101CC5D3BE00137569 /* ConvertFromSwiftToObj-.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConvertFromSwiftToObj-.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E5D0141CC5D3BE00137569 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7E5D0161CC5D3BE00137569 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E7E5D0171CC5D3BE00137569 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E7E5D0191CC5D3BE00137569 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E7E5D01A1CC5D3BE00137569 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E7E5D01D1CC5D3BE00137569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7E5D01F1CC5D3BE00137569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7E5D0221CC5D3BE00137569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7E5D0241CC5D3BE00137569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,11 @@
 		E7E5D0341CC5D3BE00137569 /* ConvertFromSwiftToObj-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ConvertFromSwiftToObj-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E5D0381CC5D3BF00137569 /* ConvertFromSwiftToObj_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConvertFromSwiftToObj_UITests.m; sourceTree = "<group>"; };
 		E7E5D03A1CC5D3BF00137569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7ED60E01CCF2C3D00CD4D9E /* BasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicView.h; sourceTree = "<group>"; };
+		E7ED60E11CCF2C3D00CD4D9E /* BasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicView.m; sourceTree = "<group>"; };
+		E7ED60E21CCF2C3D00CD4D9E /* BasicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicView.xib; sourceTree = "<group>"; };
+		E7ED60E51CCF2C6100CD4D9E /* ChessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessView.h; sourceTree = "<group>"; };
+		E7ED60E61CCF2C6100CD4D9E /* ChessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +87,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E77A9B021CCF148300CC512F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E7E5D0171CC5D3BE00137569 /* AppDelegate.m */,
+				E7E5D0161CC5D3BE00137569 /* AppDelegate.h */,
+				E77A9B061CCF154C00CC512F /* BootLogic.h */,
+				E77A9B071CCF154C00CC512F /* BootLogic.m */,
+				E77A9B0C1CCF188000CC512F /* MainScreen.h */,
+				E77A9B0D1CCF188000CC512F /* MainScreen.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		E7E5D0071CC5D3BE00137569 = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +123,8 @@
 		E7E5D0121CC5D3BE00137569 /* ConvertFromSwiftToObj- */ = {
 			isa = PBXGroup;
 			children = (
-				E7E5D0161CC5D3BE00137569 /* AppDelegate.h */,
-				E7E5D0171CC5D3BE00137569 /* AppDelegate.m */,
-				E7E5D0191CC5D3BE00137569 /* ViewController.h */,
-				E7E5D01A1CC5D3BE00137569 /* ViewController.m */,
-				E7E5D01C1CC5D3BE00137569 /* Main.storyboard */,
+				E77A9B021CCF148300CC512F /* Core */,
+				E7ED60DF1CCF2BC900CD4D9E /* UIViewBasic */,
 				E7E5D01F1CC5D3BE00137569 /* Assets.xcassets */,
 				E7E5D0211CC5D3BE00137569 /* LaunchScreen.storyboard */,
 				E7E5D0241CC5D3BE00137569 /* Info.plist */,
@@ -138,6 +157,18 @@
 				E7E5D03A1CC5D3BF00137569 /* Info.plist */,
 			);
 			path = "ConvertFromSwiftToObj-UITests";
+			sourceTree = "<group>";
+		};
+		E7ED60DF1CCF2BC900CD4D9E /* UIViewBasic */ = {
+			isa = PBXGroup;
+			children = (
+				E7ED60E01CCF2C3D00CD4D9E /* BasicView.h */,
+				E7ED60E11CCF2C3D00CD4D9E /* BasicView.m */,
+				E7ED60E21CCF2C3D00CD4D9E /* BasicView.xib */,
+				E7ED60E51CCF2C6100CD4D9E /* ChessView.h */,
+				E7ED60E61CCF2C6100CD4D9E /* ChessView.m */,
+			);
+			name = UIViewBasic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +277,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7ED60E41CCF2C3D00CD4D9E /* BasicView.xib in Resources */,
 				E7E5D0231CC5D3BE00137569 /* LaunchScreen.storyboard in Resources */,
 				E7E5D0201CC5D3BE00137569 /* Assets.xcassets in Resources */,
-				E7E5D01E1CC5D3BE00137569 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +304,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7E5D01B1CC5D3BE00137569 /* ViewController.m in Sources */,
+				E7ED60E31CCF2C3D00CD4D9E /* BasicView.m in Sources */,
+				E77A9B0E1CCF188000CC512F /* MainScreen.m in Sources */,
+				E77A9B081CCF154C00CC512F /* BootLogic.m in Sources */,
+				E7ED60E71CCF2C6100CD4D9E /* ChessView.m in Sources */,
 				E7E5D0181CC5D3BE00137569 /* AppDelegate.m in Sources */,
 				E7E5D0151CC5D3BE00137569 /* main.m in Sources */,
 			);
@@ -311,14 +345,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E7E5D01C1CC5D3BE00137569 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E7E5D01D1CC5D3BE00137569 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E7E5D0211CC5D3BE00137569 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ConvertFromSwiftToObj-/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.ConvertFromSwiftToObj-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ConvertFromSwiftToObj-/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.ConvertFromSwiftToObj-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -499,6 +527,7 @@
 				E7E5D03F1CC5D3BF00137569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7E5D0401CC5D3BF00137569 /* Build configuration list for PBXNativeTarget "ConvertFromSwiftToObj-Tests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +536,7 @@
 				E7E5D0421CC5D3BF00137569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7E5D0431CC5D3BF00137569 /* Build configuration list for PBXNativeTarget "ConvertFromSwiftToObj-UITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +545,7 @@
 				E7E5D0451CC5D3BF00137569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
